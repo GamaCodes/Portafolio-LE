@@ -1,0 +1,34 @@
+.project-description {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 40px 0;
+}
+
+.project-img {
+    text-align: center;
+    max-inline-size: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .project {
+        display: flex;
+        align-items: center;
+        padding-block-end: 80px;
+        padding-block-start: 80px;
+        gap: 32px;
+    }
+    .project-img img {
+        inline-size: 641px;
+    }
+    .project-img .project-iphone {
+        inline-size: 302px;
+    }
+    .project-description{
+        flex:1;
+    }
+    .project-odd {
+        order: 2;
+        flex:1;
+    }
+}

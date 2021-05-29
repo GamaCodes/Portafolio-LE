@@ -1,0 +1,21 @@
+.button {
+    background: var(--primaryPurple);
+    color: var(--white);
+    font: var(--button);
+    padding-inline-start: 24px;
+    padding-inline-end: 24px;
+    padding-block-start: 24px;
+    padding-block-end: 24px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.button.bt-variant {
+    background: unset;
+    color: var(--primaryPurple);
+    border: 2px solid var(--primaryPurple)
+}

@@ -1,0 +1,32 @@
+.intro {
+    margin: 40px 0;
+}
+
+.intro h1 {
+    font: var(--headline5);
+    text-align: center;
+}
+
+.intro h1 span:nth-of-type(1) {
+    font-weight: normal;
+    display: block;
+    margin-bottom: 24px;
+}
+
+.intro-img {
+    text-align: center;
+    margin-top: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .views-container {
+        padding: 80px;
+    }
+    .views-img img {
+        inline-size: 80px;
+        block-size: 80px;
+    }
+    .intro h1 span:nth-of-type(1) {
+        font: lighter 34px/55px var(--fontVariant);
+    }
+}
